@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
     font-size: 0.85rem;
-    color: white;
+    color: rgb(5, 0, 0);
 }
 
 .container-pai {
@@ -14,38 +14,66 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    background-color: rgb(41, 39, 56);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #33333310;
+    gap: 5px;
 }
 
 .container-button{
     width: 160px;
-    padding: 5px;
-    gap: 2px;
+    padding: 2.5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 
 .btn{
-    border-radius: 7px;
-    background-color: rgb(255, 230, 0);
+    border-radius: 2px;
+    background-color: #D9D9D9;
     cursor: pointer;
     padding: 2px;
     color: black;
 }
 
-.btn:hover{
-    background-color: rgb(255, 251, 0);
-}
-
 .input-text{
-    background-color: rgb(53, 50, 73);
-    border-radius: 7px;
-    border: rgb(41, 39, 56);;
+    background-color: #F3F3F3;
+    border-radius: 1px;
+    border: 1px solid #333333c7;
 }
 
 /* Desafio */
 /* Cabeçalho */
-/* Resultado */
+.cabecalho-conteudo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.logo{
+    width: 25px;
+    height: auto;
+}
+
 /* Rodapé */
+.rodape{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.link{
+    color: blue;
+}
+
+.result{
+    width: 157.5px;
+    height: 68px;
+    background-color: #F3F3F3;
+    border: 0.5px solid #333333af;
+    padding: 20px;
+    justify-content: start;
+    padding: 5px;
+}
+
